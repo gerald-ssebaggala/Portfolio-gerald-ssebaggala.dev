@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="media-queries.css" />
+  </head>
+  <body>
+    <header class="header--section">
+      <a href="#" class="logo">gerald.dev</a>
+      <button class="nav--toggle">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav--links">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="#about" class="nav--link">About</a>
+          </li>
+          <li class="nav--item">
+            <a href="#skills" class="nav--link">Skills</a>
+          </li>
+          <li class="nav--item">
+            <a href="#projects" class="nav--link">Projects</a>
+          </li>
+          <li class="nav--item">
+            <a href="#contact" class="nav--link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="desktop-nav--links">
+        <ul class="nav--list">
+          <li class="nav--item"><a href="#home" class="nav--link">Home</a></li>
+          <li class="nav--item">
+            <a href="#about" class="nav--link">About</a>
+          </li>
+          <li class="nav--item">
+            <a href="#skills" class="nav--link">Skills</a>
+          </li>
+          <li class="nav--item">
+            <a href="#projects" class="nav--link">Projects</a>
+          </li>
+          <li class="nav--item">
+            <a href="#contact" class="nav--link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro--section -->
+
+    <section class="intro__section" id="home">
+      <div class="inner--container">
+        <picture class="profile--container">
+          <img
+            src="images/profile-photo-half.JPG"
+            alt=""
+            class="profile--image"
+          />
+        </picture>
+        <div class="short--intro">
+          <h1 class="section__title section__title--intro">
+            <span class="hello">Hello, I'm</span>
+            <strong
+              ><span class="first__name">Gerald</span
+              ><span class="last__name">Ssebaggala</span></strong
+            >
+          </h1>
+          <p class="section__subtitle section__subtitle--intro slideIn">
+            Backend Developer
+          </p>
+          <div class="intro__btn-box">
+            <a href="#" class="cv">Download Cv</a>
+            <a href="#" class="contact-info">Get In Touch</a>
+          </div>
+
+          <div class="social social--mobile">
+            <a
+              href="https://www.linkedin.com/in/gerald-ssebaggala-ssendyosse-3203792b4"
+              target="_blank"
+              class="link__btn linkedin"
+            >
+              <span><i class="fa-brands fa-linkedin"></i></span>
+            </a>
+            <a
+              href="https://github.com/gerald-ssebaggala"
+              target="_blank"
+              class="link__btn github"
+            >
+              <span><i class="fa-brands fa-github"></i></span>
+            </a>
+          </div>
+        </div>
+        <picture class="profile--desktop">
+          <img
+            src="images/profile-photo-half.JPG"
+            alt=""
+            class="profile--img"
+          />
+        </picture>
+      </div>
+      <div class="technologies">
+        <h3 class="skills-tech">Skill Tech |</h3>
+        <div class="technology--icons">
+          <div class="skills-icons">
+            <span class="icon">
+              <i class="fa-brands fa-html5" style="color: #1da1f3"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-brands fa-css3-alt" style="color: #1da1f3"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-brands fa-js" style="color: #ffd43b"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-brands fa-bootstrap" style="color: #bc38d6"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-brands fa-react" style="color: #1da1f3"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-brands fa-node-js" style="color: #63e6be"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-brands fa-git-alt" style="color: #ca462e"></i>
+            </span>
+            <span class="icon">
+              <i class="fa-solid fa-database" style="color: #50c382"></i>
+            </span>
+          </div>
+          <div class="social social--desktop">
+            <a
+              href="https://www.linkedin.com/in/gerald-ssebaggala-ssendyosse-3203792b4"
+              target="_blank"
+              class="link__btn linkedin"
+            >
+              <span><i class="fa-brands fa-linkedin"></i></span>
+            </a>
+            <a
+              href="https://github.com/gerald-ssebaggala"
+              target="_blank"
+              class="link__btn github"
+            >
+              <span><i class="fa-brands fa-github"></i></span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="design-elements">
+        <img
+          src="icons/arrow-stack-up-pink.png"
+          alt=""
+          class="icon-design arrow-icon downSlides"
+        />
+        <img
+          src="icons/arrow-stack-up (1).png"
+          alt=""
+          class="icon-design arrow-icon-2 rightSlides"
+        />
+        <img
+          src="icons/lightning-1 (1).png"
+          alt=""
+          class="icon-design lightning-icon downSlides"
+        />
+        <img
+          src="icons/star-4pt-5-pink.png"
+          alt=""
+          class="icon-design star-icon rightRotate"
+        />
+        <img
+          src="icons/twist-single-2.png"
+          alt=""
+          class="icon-design twist-icon rightSlides"
+        />
+      </div>
+    </section>
+
+    <!-- about--section -->
+
+    <section class="about__section" id="about">
+      <p class="explore__intro">Get To Know More</p>
+      <h2 class="section__title section__title--about">About Me</h2>
+      <div class="about__me">
+        <img src="images/junior_developer.jpg" alt="" class="about_me--img" />
+        <p>
+          <span class="about--me-one">
+            Hello there! I'm Gerald, a dedicated developer fueled by a fervent
+            enthusiasm for problem-solving and creativity. My current focus lies
+            in web development, where I am excited to collaborate within dynamic
+            teams and apply my technical skills to craft innovative solutions.
+          </span>
+
+          <span class="about--me-two">
+            Besides Programming, I love playing volleyball in a Team, and
+            havebeen actively playing since my high school days. I'm also deeply
+            passionate about engaging in charitable activities when ain't
+            coding, since one of my dreams is to establish a funding
+            organization aimed at assisting individuals who desperately need
+            support but are constrained by financial limitations.
+          </span>
+        </p>
+      </div>
+    </section>
+
+    <!-- skills--section -->
+
+    <section class="skills__section" id="skills">
+      <p class="explore__intro">Explore my</p>
+      <h2 class="section__title section__title--skills">Skills</h2>
+      <div class="skills__container">
+        <div class="skills">
+          <p class="section__subtitle section__subtitle--skills">
+            Frontend Development
+          </p>
+          <article>
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-html5" style="color: #1da1f3"></i>
+                </span>
+                <strong>HTML</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-css3-alt" style="color: #1da1f3"></i>
+                </span>
+                <strong>CSS</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-js" style="color: #ffd43b"></i>
+                </span>
+                <strong>JavaScript</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-html5" style="color: #1da1f3"></i>
+                </span>
+                <strong>TypeScript</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-bootstrap" style="color: #bc38d6"></i>
+                </span>
+                <strong>Bootstrap</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-react" style="color: #1da1f3"></i>
+                </span>
+                <strong>React JS</strong><br />
+                Experience
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <div class="skills">
+          <p class="section__subtitle section__subtitle--skills">
+            Backend Development
+          </p>
+          <article>
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-node-js" style="color: #63e6be"></i>
+                </span>
+                <strong>Node JS</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <strong>Express JS</strong>
+                <span class="icon">
+                  <i class="fa-brands fa-js" style="color: #ffd43b"></i> </span
+                ><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-git-alt" style="color: #ca462e"></i>
+                </span>
+                <strong>Git & Github</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-solid fa-database" style="color: #50c382"></i>
+                </span>
+                <strong>Mongo DB</strong><br />
+                Experience
+              </p>
+            </div>
+
+            <div class="skill">
+              <p>
+                <span class="icon">
+                  <i class="fa-brands fa-html5" style="color: #74c0fc"></i>
+                </span>
+                <strong>Mongoose</strong><br />
+                Experience
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects--section -->
+
+    <section class="projects__section" id="projects">
+      <p class="explore__intro">Browse my Recent</p>
+      <h2 class="section__title section__title--projects">Projects</h2>
+      <div class="projects__container">
+        <div class="project">
+          <div class="proj--img">
+            <img src="images/desktop.jpg" alt="" class="project__image" />
+          </div>
+          <p class="section__subtitle section__subtitle--projects">
+            Project One
+          </p>
+          <p class="about__project">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+            iure. Rem, nihil aperiam ipsam iusto tenetur odit doloribus
+            incidunt. Maiores dignissimos voluptatem voluptate unde numquam quas
+            nemo mollitia pariatur dolor!
+          </p>
+          <div class="project__links">
+            <a href="#" class="link__btn to_github">
+              Source code
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="#" class="link__btn to_livedemo">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="proj--img">
+            <img src="images/desktop2.jpg" alt="" class="project__image" />
+          </div>
+          <p class="section__subtitle section__subtitle--projects">
+            Project Two
+          </p>
+          <p class="about__project">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+            iure. Rem, nihil aperiam ipsam iusto tenetur odit doloribus
+            incidunt. Maiores dignissimos voluptatem voluptate unde numquam quas
+            nemo mollitia pariatur dolor!
+          </p>
+          <div class="project__links">
+            <a href="#" class="link__btn to_github">
+              Source code
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="#" class="link__btn to_livedemo">Live Demo</a>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="proj--img">
+            <img src="images/desktop3.jpg" alt="" class="project__image" />
+          </div>
+          <p class="section__subtitle section__subtitle--projects">
+            Project Three
+          </p>
+          <p class="about__project">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus,
+            iure. Rem, nihil aperiam ipsam iusto tenetur odit doloribus
+            incidunt. Maiores dignissimos voluptatem voluptate unde numquam quas
+            nemo mollitia pariatur dolor!
+          </p>
+          <div class="project__links">
+            <a href="#" class="link__btn to_github">
+              Source code
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+            <a href="#" class="link__btn to_livedemo">Live Demo</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact--section -->
+
+    <section class="contact__section" id="contact">
+      <h2 class="section__title section__title--contact">Get In Touch</h2>
+    </section>
+
+    <!-- footer--section -->
+
+    <footer class="footer__section">
+      <a href="mailto: ssgerald710@gmail.com" class="mail--me">
+        <span><i class="fa-solid fa-envelope"></i></span>
+        ssgerald710@gmail.com
+      </a>
+
+      <div class="close--marks">
+        <p>Built & Designed by gerald ssebaggala.</p>
+        <p>All Rights Reserved.✌️</p>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
